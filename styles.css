@@ -348,8 +348,20 @@ h1 {
     font-weight: 300;
     line-height: 1.7;
     color: #666;
-    max-width: 560px;
+    max-width: 600px;
     margin-bottom: 24px;
+}
+
+.project-desc a {
+    color: #888;
+    text-decoration: none;
+    border-bottom: 1px solid #ddd;
+    transition: color 0.2s, border-color 0.2s;
+}
+
+.project-desc a:hover {
+    color: #1a1a1a;
+    border-bottom-color: #1a1a1a;
 }
 
 .project-gallery {
